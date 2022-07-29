@@ -1,15 +1,17 @@
-html {
-  font-family: Roboto, sans-serif;
-  --primary-color: #2f80ed;
-  --secondary-color: #333333;
-  --bg-color: #ffffff;
+:root {
+  font-family: 'Roboto Mono', monospace;
+  
 }
 
-html[data-theme='dark'] {
+:root[data-theme='dark'] {
   --primary-color: #2f80ed;
   --secondary-color: #ffffff;
   --bg-color: #202020;
 }
+
+
+
+
 
 body {
   background-color: var(--bg-color);
@@ -44,9 +46,16 @@ section {
   position: relative;
 }
 
+
 .cv {
   max-width: 900px;
   margin: 0 auto;
+  margin-top: 50px;
+}
+
+.skill{
+  color: #2f80ed;
+  margin-bottom: 0px;
 }
 
 .contacts {
@@ -73,6 +82,7 @@ section {
 .experience__date {
   min-width: 185px;
   margin-bottom: 1em;
+  margin-right: 1em;
 }
 
 .experience__name {
@@ -167,4 +177,9 @@ html.transition * {
   -webkit-transition-delay: 0 !important;
           transition-delay: 0 !important;
 }
+
+
+
+
+
 /*# sourceMappingURL=main.css.map */

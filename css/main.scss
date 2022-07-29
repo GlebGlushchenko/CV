@@ -1,15 +1,15 @@
-html {
-  font-family: Roboto, sans-serif;
-  --primary-color: #2f80ed;
-  --secondary-color: #333333;
-  --bg-color: #ffffff;
-}
+// html {
+//   font-family: Roboto, sans-serif;
+//   --primary-color: #2f80ed;
+//   --secondary-color: #333333;
+//   --bg-color: #ffffff;
+// }
 
-html[data-theme='dark'] {
-  --primary-color: #2f80ed;
-  --secondary-color: #ffffff;
-  --bg-color: #202020;
-}
+// html[data-theme='dark'] {
+//   --primary-color: #2f80ed;
+//   --secondary-color: #ffffff;
+//   --bg-color: #202020;
+// }
 body {
   background-color: var(--bg-color);
 }
@@ -43,7 +43,14 @@ section {
 .cv {
   max-width: 900px;
   margin: 0 auto;
+  margin-top: 50px;
 }
+
+.skill{
+  color: #2f80ed;
+  margin-bottom: 0px;
+}
+
 .contacts {
   margin-bottom: 2em;
 }
@@ -62,6 +69,7 @@ section {
   &__date {
     min-width: 185px;
     margin-bottom: 1em;
+    margin-right: 1em;
   }
   &__name {
     font-weight: bold;
