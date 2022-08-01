@@ -1,103 +1,114 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>CV</title>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="./css/dark.css" media="(prefers-color-scheme: dark)">
-    <link rel="stylesheet" href="./css/light.css" media="(prefers-color-scheme: light)">
-  
-  
-  </head>
-  <body>
-    <div class="cv">
-      <section>
-        <h1>Глеб Глущенко</h1>
-        <h2>Web developer/React.js</h2>
 
-        <div class="theme-switch-wrapper">
-          <label class="theme-switch">
-            <input type="checkbox" class="theme-switch__checkbox" />
-            <div class="slider round"></div>
-          </label>
-          <span class="theme-switch__label">Dark Mode</span>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>CV</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,700;1,300&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="./css/dark.css" media="(prefers-color-scheme: dark)">
+  <link rel="stylesheet" href="./css/light.css" media="(prefers-color-scheme: light)">
 
-        <div class="contacts">
-          <div class="contact">
-            <div class="contact__type">Github - </div>
-            <div class="contact__value">
-              <a target="_blank" href="https://github.com/GlebGlushchenko?tab=repositories"
-                >github.com/GlebGlushchenko</a
-              >
-            </div>
-          </div>
-          <div class="contact">
-            <div class="contact__type">Email - </div>
-            <div class="contact__value">
-              <a
-                href="mailto:GlebGlushchenk0@yandex.ru
-              "
-                >GlebGlushchenk0@yandex.ru
-              </a>
-            </div>
+
+</head>
+
+<body>
+  <div class="cv">
+
+    <section>
+      <h1 id="firstName">Глеб Глущенко</h1>
+      <h2>Web developer/React.js</h2>
+
+      <div class="theme-switch-wrapper">
+        <label class="theme-switch">
+          <input type="checkbox" class="theme-switch__checkbox" />
+          <div class="slider round"></div>
+        </label>
+        <span class="theme-switch__label">Dark Mode</span>
+       <div class="switch__lang">
+        <button class="btn" id="en" onclick="changeLang(en);">EN </button>
+        <button class="btn" id="ru" onclick="changeLang(ru);">RU</button>
+       </div>
+      </div>
+
+      <div class="contacts">
+        <div class="contact">
+          <div class="contact__type">Github - </div>
+          <div class="contact__value">
+            <a target="_blank" href="https://github.com/GlebGlushchenko?tab=repositories">github.com/GlebGlushchenko</a>
           </div>
         </div>
-        <hr>
-        <div class="description">
-          <h3 class="skill">Junior Frontend разработчик</h3> <br /> <br/> <b>Ключевые навыки:</b></br> - Хорошие знания
-          JavaScript ES6</br> - Опыт работы с TypeScript</br> - Разработка приложений на <b>React.js <img src="./assets/" alt=""></b> /<b> Vue.js</b></br> -
-          Базовые знания Node.js</br> - Понимание принципов клиент-серверного взаимодействия (HTTP, REST
-          API, WebSocket).</br> - Умение работать с GIT</br> - Адаптивная и кроссбраузерная вёрстка</br> - Верстка
-          веб-интерфейсов по макетам из Figma с использованием методологии БЭМ и препроцессора SASS
-        </br> - Опыт работы с реальными заказами
+        <div class="contact">
+          <div class="contact__type">Email - </div>
+          <div class="contact__value">
+            <a href="mailto:GlebGlushchenk0@yandex.ru
+              ">GlebGlushchenk0@yandex.ru
+            </a>
+          </div>
         </div>
-      </section>
+      </div>
       <hr>
+      <div class="description">
+        <h3 class="skill">Junior Frontend developer</h3> <br /> <br /> <b id="about">Ключевые навыки:</b></br> <span
+          id="skils_1">- Хорошие знания
+          JavaScript ES6</span></br><span id="skils_2"> - Опыт работы с TypeScript</span></br> <span id="skils_3">-
+          Разработка приложений на React.js / Vue.js</span></br> <span id="skils_4">-
+          Базовые знания Node.js</span></br><span id="skils_5"> - Понимание принципов клиент-серверного взаимодействия
+          (HTTP, REST
+          API, WebSocket)</span></br><span id="skils_6"> - Умение работать с GIT</span></br><span id="skils_7"> -
+          Адаптивная и кроссбраузерная вёрстка</span></br><span id="skils_8"> - Верстка
+          веб-интерфейсов по макетам из Figma с использованием методологии БЭМ и препроцессора SASS</span>
+        </br><span id="skils_9"> - Опыт работы с реальными заказами</span>
+      </div>
+    </section>
+    <hr>
 
-      <section>
-        <h3>Опыт</h3>
+    <section>
+      <h3 id="working">Опыт</h3>
 
-        <div class="experience">
-          <div class="experience__date">Май 2020 - Июнь 2022</div>
-          <div class="experience__description">
-            <div class="experience__name">JavaScript разработчик</div>
-            <div class="experience__company">ИП МЕЛЬДО</div>
-            <div class="experience__details">
-              <ul>
-                <li>Решение внутренних задач</li>
-                <li>Поддержка работы систем предприятия</li>
-                <li>Разработка новых решений</li>
-                
-              </ul>
-            </div>
+      <div class="experience">
+        <div class="experience__date"><span id="date_1">Май</span> 2020 - <span id="date_2">Июнь</span> 2022</div>
+        <div class="experience__description">
+          <div id="developer" class="experience__name">JavaScript разработчик</div>
+          <div id="individual" class="experience__company">ИП МЕЛЬДО</div>
+          <div class="experience__details">
+            <ul>
+              <li id="workSkills_1">Решение внутренних задач</li>
+              <li id="workSkills_2">Поддержка работы систем предприятия</li>
+              <li id="workSkills_3">Разработка новых решений</li>
+
+            </ul>
           </div>
         </div>
-     
-      </section>
-      <hr>
+      </div>
 
-      <section>
-        <h3>Навыки</h3>
-        <div>
-          JavaScript,
-          Typescript,
-          React JS,
-          Redux,
-          React Native,
-          SCSS,
-          CSS,
-          HTML5
-          , Figma, Sketch</div>
-      </section>
-    </div>
+    </section>
+    <hr>
 
-    <script src="js/script.js"></script>
-  </body>
+    <section>
+      <h3 id="attainments">Навыки</h3>
+      <div>
+        JavaScript,
+        Typescript,
+        React JS,
+        Redux,
+        React Native,
+        SCSS,
+        CSS,
+        HTML5
+        , Figma, Sketch</div>
+    </section>
+  </div>
+
+
+  <script src="https://unpkg.com/i18next@21.8.16/dist/umd/i18next.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
 </html>

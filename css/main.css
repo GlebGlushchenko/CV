@@ -46,6 +46,16 @@ section {
   position: relative;
 }
 
+.btn{
+  cursor: pointer;
+  padding: 10px;
+  color:var(--primary-color);
+  background:transparent;
+  border:  1px solid var(--primary-color);
+  margin-left: 10px;
+
+}
+
 
 .cv {
   max-width: 900px;
@@ -177,6 +187,8 @@ html.transition * {
   -webkit-transition-delay: 0 !important;
           transition-delay: 0 !important;
 }
+
+
 
 
 
