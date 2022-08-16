@@ -1,4 +1,4 @@
-const checkbox = document.querySelector(".theme-switch__checkbox");
+const checkbox = document.querySelector(".header-theme-switch__checkbox");
 checkbox.addEventListener("change", function () {
     transition();
     if (this.checked) {

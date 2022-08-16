@@ -17,24 +17,24 @@
 </head>
 
 <body>
-  <div class="cv">
-    <section>
+  <main class="cv">
+    <section class="section section-head">
       <header class="header">
-        <div class="info">
-          <h1 id="firstName">Глеб Глущенко</h1>
-          <h2>Web developer/React.js</h2>
-          <div class="contacts">
-            <div class="contact">
-              <div class="contact__type">Github - </div>
-              <div class="contact__value">
-                <a target="_blank"
+        <div class="header-info">
+          <h1 class="header-info__title" id="firstName">Глеб Глущенко</h1>
+          <h2 class="header-info__subtitle">Web developer/React.js</h2>
+          <div class="header-contacts">
+            <div class="header-contacts__contact">
+              <div class="header-contact__type">Github - </div>
+              <div class="header-contact__value">
+                <a class="header-contact__link" target="_blank"
                   href="https://github.com/GlebGlushchenko?tab=repositories">github.com/GlebGlushchenko</a>
               </div>
             </div>
-            <div class="contact">
+            <div class="header-contacts__contact">
               <div class="contact__type">Email - </div>
               <div class="contact__value">
-                <a href="mailto:GlebGlushchenk0@yandex.ru
+                <a class="header-contact__link" href="mailto:GlebGlushchenk0@yandex.ru
                   ">GlebGlushchenk0@yandex.ru
                 </a>
               </div>
@@ -42,37 +42,36 @@
           </div>
         </div>
 
-
-        <div class="theme-switch-wrapper">
-          <label class="theme-switch">
-            <input type="checkbox" class="theme-switch__checkbox" />
-            <div class="slider round"></div>
+        <div class="header-theme-switch__wrapper">
+          <label class="header-theme-switch">
+            <input type="checkbox" class="header-theme-switch__checkbox" />
+            <div class="header-slider round"></div>
           </label>
-          <span class="theme-switch__label">Dark Mode</span>
-          <div class="switch__lang">
-            <button class="btn" id="en" onclick="changeLang(en);">EN </button>
-            <button class="btn" id="ru" onclick="changeLang(ru);">RU</button>
+          <span class="header-theme-switch__label">Dark Mode</span>
+          <div class="header-switch__lang">
+            <button class="header-switch-btn" id="en" onclick="changeLang(en);">EN </button>
+            <button class="header-switch-btn" id="ru" onclick="changeLang(ru);">RU</button>
           </div>
         </div>
       </header>
 
-      <hr>
+      <hr class="separator">
       <div class="description">
-        <h3 class="skill">Junior Frontend developer</h3> <br /> <br /> <b id="about">Ключевые навыки:</b></br> <span
-          id="skils_1">- Хорошие знания
-          JavaScript ES6</span></br><span id="skils_2"> - Опыт работы с TypeScript</span></br> <span id="skils_3">-
+        <h3 class="section-title section-title--skils">Junior Frontend developer</h3> <br /> <br /> <b
+          id="about">Ключевые навыки:</b></br> <span id="skils_1">&mdash;&nbsp;Хорошие знания
+            JavaScript ES6</span></br><span id="skils_2">&mdash;&nbsp;Опыт работы с&nbsp;TypeScript</span></br> <span id="skils_3">-
           Разработка приложений на React.js / Vue.js</span></br> <span id="skils_4">-
-          Базовые знания Node.js</span></br><span id="skils_5"> - Понимание принципов клиент-серверного взаимодействия
-          (HTTP, REST
-          API, WebSocket)</span></br><span id="skils_6"> - Умение работать с GIT</span></br><span id="skils_7"> -
-          Адаптивная и кроссбраузерная вёрстка</span></br><span id="skils_8"> - Верстка
-          веб-интерфейсов по макетам из Figma с использованием методологии БЭМ и препроцессора SASS</span>
-        </br><span id="skils_9"> - Опыт работы с реальными заказами</span>
+          Базовые знания Node.js</span></br><span id="skils_5">&mdash;&nbsp;Понимание принципов клиент-серверного взаимодействия
+            (HTTP, REST
+            API, WebSocket)</span></br><span id="skils_6">&mdash;&nbsp;Умение работать с&nbsp;GIT</span></br><span id="skils_7">-
+            Адаптивная и&nbsp;кроссбраузерная вёрстка</span></br><span id="skils_8">&mdash;&nbsp;Верстка
+            веб-интерфейсов по&nbsp;макетам из&nbsp;Figma с&nbsp;использованием БЭМ и&nbsp;SASS</span>
+        </br><span id="skils_9">&mdash;&nbsp;Опыт работы с&nbsp;реальными заказами</span>
       </div>
     </section>
-    <hr>
-    <section>
-      <h3 id="working">Опыт</h3>
+    <hr class="separator">
+    <section class="section section-experience">
+      <h3 class="section-title" id="working">Опыт</h3>
       <div class="experience">
         <div class="experience__date"><span id="date_1">Май</span> 2020 - <span id="date_2">Июнь</span> 2022</div>
         <div class="experience__description">
@@ -88,9 +87,9 @@
         </div>
       </div>
     </section>
-    <hr>
-    <section>
-      <h3 id="attainments">Навыки</h3>
+    <hr class="separator">
+    <section class="section">
+      <h3 class="section-title" id="attainments">Навыки</h3>
       <div>
         JavaScript,
         Typescript,
@@ -99,15 +98,16 @@
         React Native,
         SCSS,
         CSS,
-        HTML5
-        , Figma, Sketch</div>
+        HTML5,
+        Figma,
+        Sketch</div>
     </section>
-  </div>
+    </div>
 
-  <script src="./js/translate.js" />
-  </script>
-  <script src="./js/lang.js"></script>
-  <script src="./js/script.js"></script>
+    <script src="../js/translate.js" />
+    </script>
+    <script src="../js/lang.js"></script>
+    <script src="../js/script.js"></script>
 
 </body>
 
