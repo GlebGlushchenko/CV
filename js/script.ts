@@ -1,4 +1,4 @@
-const checkbox = document.querySelector(".theme-switch__checkbox");
+const checkbox = document.querySelector(".theme-switch__checkbox") as HTMLInputElement ;
 
 checkbox.addEventListener("change", function () {
   transition();

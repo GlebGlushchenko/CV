@@ -18,39 +18,44 @@
 
 <body>
   <div class="cv">
-
     <section>
-      <h1 id="firstName">Глеб Глущенко</h1>
-      <h2>Web developer/React.js</h2>
-
-      <div class="theme-switch-wrapper">
-        <label class="theme-switch">
-          <input type="checkbox" class="theme-switch__checkbox" />
-          <div class="slider round"></div>
-        </label>
-        <span class="theme-switch__label">Dark Mode</span>
-        <div class="switch__lang">
-          <button class="btn" id="en" onclick="changeLang(en);">EN </button>
-          <button class="btn" id="ru" onclick="changeLang(ru);">RU</button>
-        </div>
-      </div>
-
-      <div class="contacts">
-        <div class="contact">
-          <div class="contact__type">Github - </div>
-          <div class="contact__value">
-            <a target="_blank" href="https://github.com/GlebGlushchenko?tab=repositories">github.com/GlebGlushchenko</a>
+      <header class="header">
+        <div class="info">
+          <h1 id="firstName">Глеб Глущенко</h1>
+          <h2>Web developer/React.js</h2>
+          <div class="contacts">
+            <div class="contact">
+              <div class="contact__type">Github - </div>
+              <div class="contact__value">
+                <a target="_blank"
+                  href="https://github.com/GlebGlushchenko?tab=repositories">github.com/GlebGlushchenko</a>
+              </div>
+            </div>
+            <div class="contact">
+              <div class="contact__type">Email - </div>
+              <div class="contact__value">
+                <a href="mailto:GlebGlushchenk0@yandex.ru
+                  ">GlebGlushchenk0@yandex.ru
+                </a>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="contact">
-          <div class="contact__type">Email - </div>
-          <div class="contact__value">
-            <a href="mailto:GlebGlushchenk0@yandex.ru
-              ">GlebGlushchenk0@yandex.ru
-            </a>
+
+
+        <div class="theme-switch-wrapper">
+          <label class="theme-switch">
+            <input type="checkbox" class="theme-switch__checkbox" />
+            <div class="slider round"></div>
+          </label>
+          <span class="theme-switch__label">Dark Mode</span>
+          <div class="switch__lang">
+            <button class="btn" id="en" onclick="changeLang(en);">EN </button>
+            <button class="btn" id="ru" onclick="changeLang(ru);">RU</button>
           </div>
         </div>
-      </div>
+      </header>
+
       <hr>
       <div class="description">
         <h3 class="skill">Junior Frontend developer</h3> <br /> <br /> <b id="about">Ключевые навыки:</b></br> <span
@@ -66,10 +71,8 @@
       </div>
     </section>
     <hr>
-
     <section>
       <h3 id="working">Опыт</h3>
-
       <div class="experience">
         <div class="experience__date"><span id="date_1">Май</span> 2020 - <span id="date_2">Июнь</span> 2022</div>
         <div class="experience__description">
@@ -80,15 +83,12 @@
               <li id="workSkills_1">Решение внутренних задач</li>
               <li id="workSkills_2">Поддержка работы систем предприятия</li>
               <li id="workSkills_3">Разработка новых решений</li>
-
             </ul>
           </div>
         </div>
       </div>
-
     </section>
     <hr>
-
     <section>
       <h3 id="attainments">Навыки</h3>
       <div>
@@ -104,9 +104,11 @@
     </section>
   </div>
 
-  <script src="js/translate.js"></script>
-  <script src="js/lang.js"></script>
-  <script src="js/script.js"></script>
+  <script src="dist/translate.js" />
+  </script>
+  <script src="dist/lang.js"></script>
+  <script src="dist/script.js"></script>
+
 </body>
 
 </html>

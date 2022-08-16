@@ -4,21 +4,16 @@
 }
 
 :root[data-theme='dark'] {
-  --primary-color: #2f80ed;
+  --primary-color: #579a94;
   --secondary-color: #ffffff;
   --bg-color: #202020;
 }
-
-
-
-
+* {
+  color: var(--secondary-color);
+}
 
 body {
   background-color: var(--bg-color);
-}
-
-* {
-  color: var(--secondary-color);
 }
 
 h1 {
@@ -46,10 +41,30 @@ section {
   position: relative;
 }
 
+hr {
+  background-color: var(--primary-color);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.cv {
+  padding: 40px;
+  max-width: 1000px;
+  margin: 50px auto;
+  margin-top: 50px;
+  box-shadow: 0px -1px 35px 1px rgba(101, 172, 141, 0.2);
+  border-radius: 10px;
+ 
+}
+
 .btn{
   cursor: pointer;
   padding: 10px;
-  color:var(--primary-color);
+  color: var(--primary-color);
   background:transparent;
   border:  1px solid var(--primary-color);
   margin-left: 10px;
@@ -57,14 +72,8 @@ section {
 }
 
 
-.cv {
-  max-width: 900px;
-  margin: 0 auto;
-  margin-top: 50px;
-}
-
 .skill{
-  color: #2f80ed;
+  color: var(--primary-color);
   margin-bottom: 0px;
 }
 
@@ -103,12 +112,6 @@ section {
   .experience {
     display: block;
   }
-}
-
-.theme-switch-wrapper {
-  position: absolute;
-  right: 0;
-  top: 0;
 }
 
 .theme-switch-wrapper {
@@ -188,10 +191,20 @@ html.transition * {
           transition-delay: 0 !important;
 }
 
+@media (max-width: 700px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 
+  .info {
+    order: 2;
+    margin-top: 20px;
+    text-align: center ;
+  }
 
-
-
-
-
-/*# sourceMappingURL=main.css.map */
+  .contacts {
+    font-size: 15px;
+  }
+}
