@@ -73,6 +73,22 @@ body {
 .footer {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.copyright {
+  text-align: center;
+
+}
+
+.copyright-img {
+  width: 70px;
+  transition: all .2s linear;
+}
+
+.copyright-img:hover {
+  transform: translateY(5px);
 }
 
 .footer__links {
@@ -101,6 +117,7 @@ body {
 .footer__Link-icon {
   width: 25px;
   margin-bottom: 5px;
+  box-shadow: 0 -1px 35px 1px rgb(118 200 164 / 20%);
 }
 
 .header-switch-btn{
@@ -108,11 +125,28 @@ body {
   padding: 10px;
   color: var(--primary-color);
   background:transparent;
-  border:  1px solid var(--primary-color);
+  border: none;
   margin-left: 10px;
-
 }
 
+.btn {
+  position: absolute;
+  top: -20px;
+  right: -36px;
+  z-index: -1;
+}
+
+.header-switch__lang {
+  position: relative;
+}
+
+.header-switch__lang:active .btn {
+  transform: translateY(5px);
+}
+
+.header-switch__lang:active .header-switch-btn {
+  transform: translateY(5px);
+}
 
 .section-title--skils{
   color: var(--primary-color);
@@ -162,10 +196,24 @@ body {
   margin-bottom: 2em;
 }
 
+.experience__details-list {
+  list-style-image: url("../img/rocket.svg");
+
+}
+
 .experience__date {
+  position: relative;
   min-width: 185px;
   margin-bottom: 1em;
   margin-right: 1em;
+}
+
+.experience__date-icon {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px;
 }
 
 .experience__name {
@@ -175,6 +223,10 @@ body {
 @media (max-width: 575px) {
   .experience {
     display: block;
+  }
+
+  .experience__date-icon {
+    display: none;
   }
 }
 
