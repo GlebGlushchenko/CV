@@ -89,12 +89,13 @@ body {
 .photo-cv {
   border-radius: 50%;
   border: 5px solid black;
-  background-image: url("../Avatar.jpeg");
+  background-image: url("../avatar.jpeg");
   width: 200px;
   height: 200px;
   background-size: cover;
   box-shadow: 0 -1px 35px 1px rgb(118 200 164 / 20%);
-
+  font-size: 0;
+  color: transparent;
 }
 
 .header-contacts {
