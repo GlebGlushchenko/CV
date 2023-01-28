@@ -20,6 +20,7 @@ body {
 .header-info__title {
   color: var(--primary-color);
   margin-bottom: 0.25em;
+  margin-left: 15px;
 }
 
 .header-info__subtitle {
@@ -27,6 +28,7 @@ body {
   font-size: 1em;
   margin-top: 0;
   margin-bottom: 1em;
+  margin-left: 30px;
 }
 
 .section-title {
@@ -50,6 +52,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  padding-bottom: 20px;
+}
+
+.header-info {
+  display: flex;
+  align-items: center;
 }
 
 .cv {
@@ -78,6 +86,17 @@ body {
   margin-bottom: 0px;
 }
 
+.photo-cv {
+  border-radius: 50%;
+  border: 5px solid black;
+  background-image: url("../Avatar.jpeg");
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  box-shadow: 0 -1px 35px 1px rgb(118 200 164 / 20%);
+
+}
+
 .header-contacts {
   margin-bottom: 2em;
 }
@@ -89,8 +108,13 @@ body {
   margin-bottom: 10px;
 }
 
+.header-contacts__contact:first-child {
+  margin-left: 30px;
+}
+
 .header-contacts__contact:last-child {
   margin-bottom: 0;
+  margin-left: 20px;
 }
 
 .header-contact__type {

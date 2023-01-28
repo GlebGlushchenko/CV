@@ -13,13 +13,25 @@ const en = {
     skils_9: "- Experience with real orders",
     working: "Working experiences",
     attainments: "Attainments",
-    developer: "JavaScript developer",
-    individual: "Individual-Entrepreneur:'MELDO'",
+    developer_1: "JavaScript developer",
+    developer_2: " Software Engineer/Front-end developer",
+    individual_1: "Individual-Entrepreneur:'MELDO'",
+    individual_2: "OOO 'Roskvartal'",
     workSkills_1: "Resolving domestic objectives",
     workSkills_2: "Care of your system",
     workSkills_3: "Development of new solutions",
+    workSkills_4: "Development of client applications and services",
+    workSkills_5: "Bug-fix",
+    workSkills_6: "Implementation of new features",
     date_1: "May",
     date_2: "June",
+    date_3: "June",
+    date_4: "currently",
+    workSkillsExtended_1: "Work stack in this company: Angular 1.0, Vue 3.0, React Working with git using the git flow methodology",
+    workSkillsExtended_2: "Working with git using the git flow methodology"
+
+
+   
 };
 const ru = {
     lang: 'ru',
@@ -36,11 +48,20 @@ const ru = {
     skils_9: "- Опыт работы с реальными заказами",
     working: "Опыт",
     attainments: "Навыки",
-    developer: "JavaScript разработчик",
-    individual: "ИП МЕЛЬДО",
+    developer_1: "JavaScript разработчик",
+    developer_2: "Инженер-программист/фронтенд",
+    individual_1: "ИП МЕЛЬДО",
+    individual_2: "ООО 'РосКвартал'",
     workSkills_1: "Решение внутренних задач",
     workSkills_2: "Поддержка работы систем предприятия",
     workSkills_3: "Разработка новых решений",
+    workSkills_4: "Разработка клиентских приложений и сервисов",
+    workSkills_5: "Исправление ошибок",
+    workSkills_6: "Внедрение новых фич",
     date_1: "Май",
     date_2: "Июнь",
+    date_3: "Июнь",
+    date_4: "Н-В",
+    workSkillsExtended_1: "Рабочий стек в данной компании: Angular 1.0, Vue 3.0, React",
+    workSkillsExtended_2: "Работа с git по методологии git flow"
 };
