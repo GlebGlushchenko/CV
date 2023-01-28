@@ -70,6 +70,39 @@ body {
  
 }
 
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer__links {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.footer__link {
+  list-style: none;
+  margin-right: 20px;
+  
+}
+.footer__link:last-child {
+  margin-right: 0;
+}
+
+.footer__link a {
+  color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer__Link-icon {
+  width: 25px;
+  margin-bottom: 5px;
+}
+
 .header-switch-btn{
   cursor: pointer;
   padding: 10px;
@@ -89,7 +122,7 @@ body {
 .photo-cv {
   border-radius: 50%;
   border: 5px solid black;
-  background-image: url("../avatar.webp");
+  background-image: url("../img/avatar.webp");
   width: 200px;
   height: 200px;
   background-size: cover;
@@ -233,9 +266,18 @@ html.transition * {
     order: 2;
     margin-top: 20px;
     text-align: center ;
+    flex-direction: column;
+  }
+
+  .photo-cv {
+    margin: 20px 0;
   }
 
   .contacts {
     font-size: 15px;
+  }
+
+  .header-contacts__contact {
+    margin: 0!important;
   }
 }
