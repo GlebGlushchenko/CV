@@ -89,7 +89,7 @@ body {
 .photo-cv {
   border-radius: 50%;
   border: 5px solid black;
-  background-image: url("../avatar.jpeg");
+  background-image: url("../avatar.webp");
   width: 200px;
   height: 200px;
   background-size: cover;
