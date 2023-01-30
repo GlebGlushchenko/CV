@@ -63,8 +63,7 @@ body {
 .cv {
   padding: 40px;
   max-width: 1000px;
-  margin: 50px auto;
-  margin-top: 50px;
+  margin: 15px auto;
   box-shadow: 0 -1px 35px 1px rgba(118, 200, 164, 0.2);
   border-radius: 10px;
  
@@ -133,7 +132,7 @@ body {
 .btn {
   position: absolute;
   top: -20px;
-  right: -36px;
+  right: -37px;
   z-index: -1;
 }
 
@@ -219,6 +218,7 @@ body {
 
 .experience__name {
   font-weight: bold;
+  color: var(--primary-color);
 }
 
 @media (max-width: 575px) {
