@@ -95,6 +95,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  padding: 0;
 
 }
 
@@ -331,5 +332,17 @@ html.transition * {
 
   .header-contacts__contact {
     margin: 0!important;
+  }
+}
+
+/* MEDIA */
+
+@media screen and (max-width: 500px) {
+  .header-info__title {
+    margin-left: 0;
+  } 
+
+  .header-info__subtitle {
+    margin-left: 0;
   }
 }
