@@ -114,10 +114,9 @@ body {
   flex-direction: column;
 }
 
-.footer__Link-icon {
+.footer__link-icon {
   width: 25px;
   margin-bottom: 5px;
-  box-shadow: 0 -1px 35px 1px rgb(118 200 164 / 20%);
 }
 
 .header-switch-btn{
