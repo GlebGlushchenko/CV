@@ -4,7 +4,7 @@
 }
 
 :root[data-theme='dark'] {
-  --primary-color: #579a94;
+  --primary-color: #b3c6c4;
   --secondary-color: #ffffff;
   --bg-color: #202020;
 }
@@ -193,11 +193,6 @@ body {
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 2em;
-}
-
-.experience__details-list {
-  list-style-image: url("../img/rocket.svg");
-
 }
 
 .experience__date {
