@@ -44,7 +44,8 @@ function changeLang(lan) {
 }
 
 const skills = [
-  "Typescript",
+  "JavaScript",
+  "TypeScript",
   "React JS",
   "VueJS",
   "AngularJS",
