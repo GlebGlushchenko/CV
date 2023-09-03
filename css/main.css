@@ -147,6 +147,23 @@ body {
   transform: translateY(5px);
 }
 
+.skils__list {
+  list-style: none;
+}
+
+.skils {
+  padding: 10px;
+
+}
+
+.skils__item {
+  padding: 10px;
+  display: inline-block;
+  background-color: var( --primary-color);
+  margin-bottom: 5px;
+  border-radius: 4px;
+}
+
 .section-title--skils{
   color: var(--primary-color);
   margin-bottom: 0px;

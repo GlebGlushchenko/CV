@@ -11,9 +11,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,700;1,300&display=swap"
     rel="stylesheet">
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/dark.css" media="(prefers-color-scheme: dark)">
-    <link rel="stylesheet" href="css/light.css" media="(prefers-color-scheme: light)">
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/dark.css" media="(prefers-color-scheme: dark)">
+  <link rel="stylesheet" href="css/light.css" media="(prefers-color-scheme: light)">
 </head>
 
 <body>
@@ -24,26 +24,26 @@
           <div class="photo-cv">
             #
           </div>
-         <div class="header-info__content">
-          <h1 class="header-info__title" id="firstName">Глеб Глущенко</h1>
-          <h2 class="header-info__subtitle">Web developer/React.js</h2>
-          <div class="header-contacts">
-            <div class="header-contacts__contact">
-              <div class="header-contact__type">Github - </div>
-              <div class="header-contact__value">
-                <a class="header-contact__link" target="_blank"
-                  href="https://github.com/GlebGlushchenko?tab=repositories">github.com/GlebGlushchenko</a>
+          <div class="header-info__content">
+            <h1 class="header-info__title" id="firstName">Глеб Глущенко</h1>
+            <h2 class="header-info__subtitle">Web developer/React.js</h2>
+            <div class="header-contacts">
+              <div class="header-contacts__contact">
+                <div class="header-contact__type">Github - </div>
+                <div class="header-contact__value">
+                  <a class="header-contact__link" target="_blank"
+                    href="https://github.com/GlebGlushchenko?tab=repositories">github.com/GlebGlushchenko</a>
+                </div>
               </div>
-            </div>
-            <div class="header-contacts__contact">
-              <div class="header-contact__type">Email - </div>
-              <div class="header-contact__value">
-                <a class="header-contact__link" href="mailto:GlebGlushchenk0@yandex.ru">GlebGlushchenk0@yandex.ru
-                </a>
+              <div class="header-contacts__contact">
+                <div class="header-contact__type">Email - </div>
+                <div class="header-contact__value">
+                  <a class="header-contact__link" href="mailto:GlebGlushchenk0@yandex.ru">GlebGlushchenk0@yandex.ru
+                  </a>
+                </div>
               </div>
             </div>
           </div>
-         </div>
         </div>
         <div class="header-switch__lang">
           <img class="btn" src="./img/btn.png" alt="">
@@ -54,22 +54,34 @@
 
       <hr class="separator">
       <div class="description">
-        <h3 class="section-title section-title--skils">Junior Frontend developer</h3> <br /> <br /> <b
-          id="about">Ключевые навыки:</b></br> <span id="skils_1">&mdash;&nbsp;Хорошие знания
-          JavaScript ES6</span></br><span id="skils_2">&mdash;&nbsp;Опыт работы с&nbsp;TypeScript</span></br> <span
-          id="skils_3">-
-          Разработка приложений на React.js / Vue.js</span></br> <span id="skils_4">-
-          Базовые знания Node.js</span></br><span id="skils_5">&mdash;&nbsp;Понимание принципов клиент-серверного
-          взаимодействия
-          (HTTP, REST
-          API, WebSocket)</span></br><span id="skils_6">&mdash;&nbsp;Умение работать с&nbsp;GIT</span></br><span
-          id="skils_7">-
-          Адаптивная и&nbsp;кроссбраузерная вёрстка</span></br><span id="skils_8">&mdash;&nbsp;Верстка
-          веб-интерфейсов по&nbsp;макетам из&nbsp;Figma с&nbsp;использованием БЭМ и&nbsp;SASS</span>
-        </br><span id="skils_9">&mdash;&nbsp;Опыт работы с&nbsp;реальными заказами</span>
+        <h2 class="section-title section-title--skils">Frontend developer</h2>
+        <h3>Frontend:</h3>
+        <ul class="skils__list">
+          <li>&mdash; TypeScript / JavaScript (ES6+)</li>
+          <li>&mdash; NextJS / ReactJS</li>
+          <li>&mdash; Redux Toolkit / Redux / Redux Saga / Redux Thunk</li>
+          <li>&mdash; React Hook Form / Formik</li>
+          <li>&mdash; Vue 3 / NuxtJS / Vuex</li>
+          <li>&mdash; SCSS / styled-components / CSS Modules / Stylus / PostCSS</li>
+          <li>&mdash; Material UI / Semantic UI / Twitter Bootstrap / Ant Design</li>
+          <li>&mdash; Webpack / Gulp</li>
+          <li>&mdash; SSR / Profiler / Optimizing Perfomance / Code Splitting / Lazy Loading</li>
+          <li>&mdash; ESLint / Prettier</li>
+          <li>&mdash; React Native / Expo</li>
+        </ul>
+        <h3>Другие скиллы:</h3>
+        <ul class="skils__list">
+          <li>&mdash; Git / GitHub / Bitbucket / GitLab</li>
+          <li>&mdash; Gitflow</li>
+          <li>&mdash; SOLID</li>
+          <li>&mdash; Docker, CI/CD / NGINX</li>
+          <li>&mdash; BEM (CSS)</li>
+          <li>&mdash; JSON / JSON RPC</li>
+          <li>&mdash; Jira, Confluence, Trello, ClickUp, Redmine</li>
+        </ul>
       </div>
     </section>
-    
+
     <hr class="separator">
     <section class="section section-experience">
       <h3 class="section-title" id="working">Опыт</h3>
@@ -99,11 +111,11 @@
           <div class="experience__details">
             <ul class="experience__details-list">
               <li id="workSkills_4">Разработка клиентских приложений и сервисов</li>
-              <li id="workSkills_5">Исправление ошибок</li>
-              <li id="workSkills_6">Внедрение новых фич</li>
+              <li id="workSkills_5">Разработка внутренних решений для сотрудников</li>
+              <li id="workSkills_6">Вёрстка и разработка Email-рассылок</li>
+              <li id="workSkills_7">Вёрстка и разработка Email-рассылок</li>
+              <li id="workSkills_8">Вёрстка и разработка Email-рассылок</li>
             </ul>
-            <div id="workSkillsExtended_1">Рабочий стек в данной компании: Angular 1.0, Vue 3.0, React</div>
-            <div id="workSkillsExtended_2">Работа с git по методологии git flow</div>
           </div>
         </div>
       </div>
@@ -111,45 +123,45 @@
     <hr class="separator">
     <section class="section">
       <h3 class="section-title" id="attainments">Навыки</h3>
-      <div>
-        JavaScript,
-        Typescript,
-        React JS,
-        VueJS,
-        AngularJS,
-        Redux,
-        React Native,
-        SCSS,
-        CSS,
-        HTML5,
-        Figma
-      </div>
+      <ul class="skils__list skils">
+        <li class="skils__item">JavaScript</li>
+        <li class="skils__item">Typescript</li>
+        <li class="skils__item">React JS</li>
+        <li class="skils__item">VueJS</li>
+        <li class="skils__item">AngularJS</li>
+        <li class="skils__item">Redux</li>
+        <li class="skils__item">React Native</li>
+        <li class="skils__item">SCSS</li>
+        <li class="skils__item">CSS</li>
+        <li class="skils__item">HTML5</li>
+        <li class="skils__item">Figma</li>
+      </ul>
     </section>
     <hr class="separator">
     <footer class="footer">
       <ul class="footer__links">
         <li class="footer__link"><a href="https://github.com/GlebGlushchenko?tab=repositories" target="_blank">
-          Github</a></li>
+            Github</a></li>
         <li class="footer__link"><a href="mailto:GlebGlushchenk0@yandex.ru" target="_blank">
-          Email</a></li>
+            Email</a></li>
         <li class="footer__link"><a href="https://wa.me/+79114139607" target="_blank">
-          WhatsApp</a></li>
+            WhatsApp</a></li>
         <li class="footer__link">
           <a href="https://telegram.me/OUTS1DER123" target="_blank">
-            Telegram 
+            Telegram
           </a>
         </li>
       </ul>
       <div class="copyright">
         <a href="https://github.com/GlebGlushchenko?tab=repositories" target="_blank">
-        <img class="copyright-img" src="./img/logo-footer.png" alt="Icon">
+          <img class="copyright-img" src="./img/logo-footer.png" alt="Icon">
         </a>
       </div>
     </footer>
   </main>
 
-    <script src="js/translate.js"></script>
-    <script src="js/lang.js"></script>
+  <script src="js/translate.js"></script>
+  <script src="js/lang.js"></script>
 </body>
 
 </html>
