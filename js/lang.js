@@ -42,3 +42,26 @@ function changeLang(lan) {
     document.getElementById(objKey).innerText = translation(objKey);
   }
 }
+
+const skills = [
+  "Typescript",
+  "React JS",
+  "VueJS",
+  "AngularJS",
+  "Redux",
+  "React Native",
+  "SCSS",
+  "CSS",
+  "HTML5",
+  "Figma",
+];
+
+const sectionSkills = document.querySelector(".skils");
+const li = document.createElement("li");
+
+skills.forEach((item) => {
+  const li = document.createElement("li");
+  li.classList.add("skills__item");
+  li.innerHTML = item;
+  sectionSkills.appendChild(li);
+});
