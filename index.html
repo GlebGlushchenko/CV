@@ -18,10 +18,11 @@
 
 <body>
   <main>
-    <section class="section-head">
-      <header class="section header ">
+
+    <section class="section header">
+      <header class="header">
         <div class="header-info">
-          <div class="photo-cv">
+          <div class="header__photo">
             #
           </div>
           <div class="header-info__content">
@@ -37,7 +38,7 @@
               </div>
               <div class="header-contacts__contact">
                 <div class="header-contact__type">Email - </div>
-                <div class="header-contact__value">
+                <div>
                   <a class="header-contact__link" href="mailto:GlebGlushchenk0@yandex.ru">GlebGlushchenk0@yandex.ru
                   </a>
                 </div>
@@ -45,106 +46,103 @@
             </div>
           </div>
         </div>
-        <div class="header-switch__lang">
+        <div>
           <button class="header-switch-btn" id="en" onclick="changeLang(en);">EN </button>
           <button class="header-switch-btn" id="ru" onclick="changeLang(ru);">RU</button>
         </div>
       </header>
-
-      <div class="section description">
-        <h2 class="section-title ">Frontend developer</h2>
-        <h3 class="skills__subtitle">Frontend:</h3>
-        <ul class="skils__list">
-          <li>&mdash; TypeScript / JavaScript (ES6+)</li>
-          <li>&mdash; NextJS / ReactJS</li>
-          <li>&mdash; Redux Toolkit / Redux / Redux Saga / Redux Thunk</li>
-          <li>&mdash; React Hook Form / Formik</li>
-          <li>&mdash; Vue 3 / NuxtJS / Vuex</li>
-          <li>&mdash; SCSS / styled-components / CSS Modules / Stylus / PostCSS</li>
-          <li>&mdash; Material UI / Semantic UI / Twitter Bootstrap / Ant Design</li>
-          <li>&mdash; Webpack / Gulp</li>
-          <li>&mdash; SSR / Profiler / Optimizing Perfomance / Code Splitting / Lazy Loading</li>
-          <li>&mdash; ESLint / Prettier</li>
-          <li>&mdash; React Native / Expo</li>
-        </ul>
-        <h3 id="skillsTitle">Другие скиллы:</h3>
-        <ul class="skils__list">
-          <li>&mdash; Git / GitHub / Bitbucket / GitLab</li>
-          <li>&mdash; Gitflow</li>
-          <li>&mdash; SOLID</li>
-          <li>&mdash; Docker, CI/CD / NGINX</li>
-          <li>&mdash; BEM (CSS)</li>
-          <li>&mdash; JSON / JSON RPC</li>
-          <li>&mdash; Jira, Confluence, Trello, ClickUp, Redmine</li>
-        </ul>
-      </div>
     </section>
 
+    <section class="section description">
+      <h2 class="section-title">Frontend developer</h2>
+      <h3 class="skills__subtitle">Frontend:</h3>
+      <ul class="skills__list">
+        <li>&mdash; TypeScript / JavaScript (ES6+)</li>
+        <li>&mdash; NextJS / ReactJS</li>
+        <li>&mdash; Redux Toolkit / Redux / Redux Saga / Redux Thunk</li>
+        <li>&mdash; React Hook Form / Formik</li>
+        <li>&mdash; Vue 3 / NuxtJS / Vuex</li>
+        <li>&mdash; SCSS / styled-components / CSS Modules / Stylus / PostCSS</li>
+        <li>&mdash; Material UI / Semantic UI / Twitter Bootstrap / Ant Design</li>
+        <li>&mdash; Webpack / Gulp</li>
+        <li>&mdash; SSR / Profiler / Optimizing Perfomance / Code Splitting / Lazy Loading</li>
+        <li>&mdash; ESLint / Prettier</li>
+        <li>&mdash; React Native / Expo</li>
+      </ul>
+      <h3 class="skills__subtitle" id="skillsTitle">Другие скиллы:</h3>
+      <ul class="skills__list">
+        <li>&mdash; Git / GitHub / Bitbucket / GitLab</li>
+        <li>&mdash; Gitflow</li>
+        <li>&mdash; SOLID</li>
+        <li>&mdash; Docker, CI/CD / NGINX</li>
+        <li>&mdash; BEM (CSS)</li>
+        <li>&mdash; JSON / JSON RPC</li>
+        <li>&mdash; Jira, Confluence, Trello, ClickUp, Redmine</li>
+      </ul>
+    </section>
     <section class="section section-experience">
       <h2 class="section-title" id="working">Опыт</h2>
       <div class="experience">
         <div class="experience__date">
           <span id="date_1">Май</span> 2020 - <span id="date_2">Июнь</span> 2022
         </div>
-        <div class="experience__description">
+        <div>
           <div id="developer_1" class="experience__name">JavaScript разработчик</div>
-          <div id="individual_1" class="experience__company">ИП МЕЛЬДО</div>
-          <div class="experience__details">
-            <ul class="experience__details-list">
-              <li id="workSkills_1">Решение внутренних задач</li>
-              <li id="workSkills_2">Поддержка работы систем предприятия</li>
-              <li id="workSkills_3">Разработка новых решений</li>
-            </ul>
-          </div>
+          <p id="individual_1">ИП МЕЛЬДО</p>
+          <ul>
+            <li id="workSkills_1">Решение внутренних задач</li>
+            <li id="workSkills_2">Поддержка работы систем предприятия</li>
+            <li id="workSkills_3">Разработка новых решений</li>
+          </ul>
         </div>
       </div>
+
       <div class="experience">
         <div class="experience__date">
           <span id="date_3">Июнь</span> 2022 - <span id="date_4">Н-В</span>
         </div>
         <div class="experience__description">
           <div id="developer_2" class="experience__name">Инженер-программист/фронтенд</div>
-          <div id="individual_2" class="experience__company">ООО "РосКвартал"</div>
-          <div class="experience__details">
-            <ul class="experience__details-list">
-              <li id="workSkills_4">Разработка клиентских приложений и сервисов</li>
-              <li id="workSkills_5">Разработка внутренних решений для сотрудников</li>
-              <li id="workSkills_6">Вёрстка и разработка Email-рассылок</li>
-              <li id="workSkills_7">Вёрстка и разработка Email-рассылок</li>
-              <li id="workSkills_8">Вёрстка и разработка Email-рассылок</li>
-            </ul>
-          </div>
+          <p id="individual_2">ООО "РосКвартал"</p>
+          <ul>
+            <li id="workSkills_4">Разработка клиентских приложений и сервисов</li>
+            <li id="workSkills_5">Разработка внутренних решений для сотрудников</li>
+            <li id="workSkills_6">Вёрстка и разработка Email-рассылок</li>
+            <li id="workSkills_7">Вёрстка и разработка Email-рассылок</li>
+            <li id="workSkills_8">Вёрстка и разработка Email-рассылок</li>
+          </ul>
         </div>
       </div>
     </section>
     <section class="section">
       <h2 class="section-title" id="attainments">Навыки</h2>
-      <ul class="skils__list skils">
-       
+      <ul class="skills__list skills">
+
       </ul>
     </section>
     <footer class="footer">
       <ul class="footer__links">
-        <li class="footer__link"><a href="https://github.com/GlebGlushchenko?tab=repositories" target="_blank">
-            Github</a></li>
-        <li class="footer__link"><a href="mailto:GlebGlushchenk0@yandex.ru" target="_blank">
-            Email</a></li>
-        <li class="footer__link"><a href="https://wa.me/+79114139607" target="_blank">
-            WhatsApp</a></li>
+        <li class="footer__link">
+          <a href="https://github.com/GlebGlushchenko?tab=repositories" target="_blank">
+            Github</a>
+        </li>
+        <li class="footer__link">
+          <a href="mailto:GlebGlushchenk0@yandex.ru" target="_blank">
+            Email</a>
+        </li>
+        <li class="footer__link">
+          <a href="https://wa.me/+79114139607" target="_blank">
+            WhatsApp</a>
+        </li>
         <li class="footer__link">
           <a href="https://telegram.me/OUTS1DER123" target="_blank">
             Telegram
           </a>
         </li>
       </ul>
-      <div class="copyright">
-        <a href="https://github.com/GlebGlushchenko?tab=repositories" target="_blank">
-          <img class="copyright-img" src="./img/logo-footer.png" alt="Icon">
-        </a>
-      </div>
+
     </footer>
   </main>
-
   <script src="js/translate.js"></script>
   <script src="js/lang.js"></script>
 </body>
