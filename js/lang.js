@@ -57,7 +57,7 @@ const skills = [
   "Figma",
 ];
 
-const sectionSkills = document.querySelector(".skils");
+const sectionSkills = document.querySelector(".skills");
 const li = document.createElement("li");
 
 skills.forEach((item) => {
