@@ -142,8 +142,8 @@ body {
   flex-direction: column;
 }
 
-.skills__list {
-  list-style: none;
+.skills__list li {
+  margin: 10px 0;
 }
 
 .skills {
@@ -178,6 +178,7 @@ body {
 
 .company__name {
   padding-bottom: .5em;
+  font-weight: 700;
 }
 
 /* MEDIA */
