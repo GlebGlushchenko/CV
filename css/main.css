@@ -93,10 +93,11 @@ body {
 .header-contacts__item {
   display: flex;
   margin-bottom: .8em;
+  margin-left: 2em;
 }
 
 .header-contacts__item:first-child {
-  margin-left: 2em;
+  margin-left: 1.4em;
 }
 
 .header-contacts__item:last-child {
@@ -171,7 +172,7 @@ body {
 }
 
 .experience__name {
-  font-weight: bold;
+  font-weight: 700;
   color: var(--primary-color);
   padding-bottom: .5em;
 }
@@ -179,6 +180,10 @@ body {
 .company__name {
   padding-bottom: .5em;
   font-weight: 700;
+}
+
+.about_company {
+  margin-bottom: 10px;
 }
 
 /* MEDIA */
@@ -202,6 +207,10 @@ body {
   }
 
   .header-info__subtitle {
+    margin-left: 0;
+  }
+
+  .header-contacts__item {
     margin-left: 0;
   }
 
